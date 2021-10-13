@@ -17,11 +17,12 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  img: 'anzuote.jpg',
+  paragraphOne: '●ReactとTypeScriptに高い関心を持ち、日々学習に励んでいます。',
+  paragraphTwo: '●ピアノちょっと弾けます。',
+  paragraphThree: '●今ハマり中。',
+  paragraphFour: '●自転車で日本一周した事あります。',
+  resume: '', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
