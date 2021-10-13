@@ -57,9 +57,9 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
-  btn: '',
-  email: '',
+  cta: 'ご連絡はこちらからどうぞ。',
+  btn: '📭️ E-Mail',
+  email: 'totuus1157.forbusiness@gmail.com',
 };
 
 // FOOTER DATA
