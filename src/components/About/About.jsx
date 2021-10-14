@@ -26,8 +26,8 @@ const About = () => {
   }, []);
 
   const technology = [
-    '・Javascript(Typescript)',
     '・React(Next.js)',
+    '・Typescript',
     '・Docker',
     '・Git',
     '・Github',
