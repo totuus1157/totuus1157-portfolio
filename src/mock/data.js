@@ -39,7 +39,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project2.jpg',
-    title: '20th Synthesizers Gallery',
+    title: '20世紀シンセサイザーギャラリー',
     info: '【使用技術】',
     info2: ['React', 'Material UI', 'Docker Compose', 'TypeScript'],
     url: 'https://totuus1157.github.io/20th-synthesizers-gallery/',
