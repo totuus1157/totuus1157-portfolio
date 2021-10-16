@@ -80,13 +80,13 @@ const About = () => {
                 </p>
                 <Iframely />
                 {parse(
-                  '<div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://www.sunday-webry.com/share.php/?title_id=1093" data-iframely-url="//cdn.iframe.ly/xjGO3qj?card=small"></a></div></div>'
+                  '<div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; width: 360px; padding-bottom: 0;"><a href="https://www.sunday-webry.com/share.php/?title_id=1093" data-iframely-url="//cdn.iframe.ly/xjGO3qj?card=small"></a></div></div>'
                 )}
                 <p className="about-wrapper__info-text" style={{ marginTop: '10px' }}>
                   {paragraphFour || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
                 </p>
                 {parse(
-                  '<div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="http://okanomukouni.seesaa.net/" data-iframely-url="//cdn.iframe.ly/hOfiQVF"></a></div></div>'
+                  '<div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; width: 360px; padding-bottom: 0;"><a href="http://okanomukouni.seesaa.net/" data-iframely-url="//cdn.iframe.ly/hOfiQVF"></a></div></div>'
                 )}
                 {resume && (
                   <span className="d-flex mt-3">
