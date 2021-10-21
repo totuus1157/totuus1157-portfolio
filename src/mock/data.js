@@ -29,6 +29,15 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'project4.jpg',
+    title: 'Apple Music Hi-Res Album Database(作製中)',
+    info: '【使用技術】',
+    info2: ['Next.js', 'Firebase', 'React-Bootstrap', 'TypeScript'],
+    url: '',
+    repo: 'https://github.com/totuus1157/apple-music-hi-res-album-database', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'project3.jpg',
     title: 'メモのできるカレンダー',
     info: '【使用技術】',
@@ -44,15 +53,6 @@ export const projectsData = [
     info2: ['React', 'Material UI', 'Docker Compose', 'TypeScript'],
     url: 'https://totuus1157.github.io/20th-synthesizers-gallery/',
     repo: 'https://github.com/totuus1157/20th-synthesizers-gallery', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project1.jpg',
-    title: '年賀状当選番号チェッカー',
-    info: '【使用技術】',
-    info2: ['React', 'React-Bootstrap', 'Docker Compose'],
-    url: 'https://totuus1157.github.io/new-years-card-winner-number-checker/',
-    repo: 'https://github.com/totuus1157/new-years-card-winner-number-checker', // if no repo, the button will not show up
   },
 ];
 
