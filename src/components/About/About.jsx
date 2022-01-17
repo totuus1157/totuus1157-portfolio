@@ -29,9 +29,8 @@ const About = () => {
     '・React(Next.js)',
     '・Typescript',
     '・Docker',
-    '・Git',
-    '・Github',
-    '・Firebase',
+    '・Git(Github)',
+    '・Firebase(Firestore,Auth)',
     '・Spacemacs',
   ];
 
