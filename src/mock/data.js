@@ -30,10 +30,10 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project4.jpg',
-    title: 'Apple Music Hi-Res Album Database(作製中)',
+    title: 'Apple Music Hi-Res Album Database',
     info: '【使用技術】',
     info2: ['React(Next.js)', 'Firebase', 'React-Bootstrap', 'TypeScript'],
-    url: '',
+    url: 'https://www.applemusichirezdb.com',
     repo: 'https://github.com/totuus1157/apple-music-hi-res-album-database', // if no repo, the button will not show up
   },
   {
