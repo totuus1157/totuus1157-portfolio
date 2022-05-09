@@ -30,7 +30,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project4.jpg',
-    title: 'Apple Music Hi-Res Album Database',
+    title: 'Apple Music Hi-Res Albums Database',
     info: '【使用技術】',
     info2: ['React(Next.js)', 'Firebase', 'React-Bootstrap', 'TypeScript'],
     url: 'https://www.applemusichirezdb.com',
