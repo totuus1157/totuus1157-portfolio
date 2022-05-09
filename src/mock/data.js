@@ -20,9 +20,8 @@ export const aboutData = {
   img: 'anzuote.jpg',
   paragraphOne: '●ReactとTypeScriptに高い関心を持ち、日々学習に励んでいます。',
   paragraphTwo: '●ピアノちょっと弾けます。',
-  paragraphThree: '●今ハマり中。',
-  paragraphFour: '●自転車で日本一周した事あります。',
-  resume: '', // if no resume, the button will not show up
+  paragraphThree: '●自転車で日本一周した事あります。',
+  resume: 'https://findy-code.io/share_profiles/6WP99bYouHa1o', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA

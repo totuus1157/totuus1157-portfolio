@@ -10,7 +10,7 @@ import anzuoteGIF from '../../images/anzuote.gif';
 
 const About = () => {
   const { about } = useContext(PortfolioContext);
-  const { img, paragraphOne, paragraphTwo, paragraphThree, paragraphFour, resume } = about;
+  const { img, paragraphOne, paragraphTwo, paragraphThree, resume } = about;
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -60,6 +60,18 @@ const About = () => {
                 {technology.map((tech) => (
                   <p className="about-wrapper__info-text">{tech}</p>
                 ))}
+                {resume && (
+                  <span className="d-flex mt-3">
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="cta-btn cta-btn--resume"
+                      href={resume}
+                    >
+                      Resume
+                    </a>
+                  </span>
+                )}
                 <h1>🎹️ やわいこと 📚</h1>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
@@ -79,25 +91,7 @@ const About = () => {
                 </p>
                 <Iframely />
                 {parse(
-                  '<div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; width: 360px; padding-bottom: 0;"><a href="https://www.sunday-webry.com/share.php/?title_id=1093" data-iframely-url="//cdn.iframe.ly/xjGO3qj?card=small"></a></div></div>'
-                )}
-                <p className="about-wrapper__info-text" style={{ marginTop: '10px' }}>
-                  {paragraphFour || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
-                </p>
-                {parse(
                   '<div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; width: 360px; padding-bottom: 0;"><a href="http://okanomukouni.seesaa.net/" data-iframely-url="//cdn.iframe.ly/hOfiQVF"></a></div></div>'
-                )}
-                {resume && (
-                  <span className="d-flex mt-3">
-                    <a
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="cta-btn cta-btn--resume"
-                      href={resume}
-                    >
-                      Resume
-                    </a>
-                  </span>
                 )}
               </div>
             </Fade>
