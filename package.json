@@ -72,5 +72,8 @@
       "prettier --write",
       "git add"
     ]
+  },
+  "volta": {
+    "node": "14.20.0"
   }
 }
