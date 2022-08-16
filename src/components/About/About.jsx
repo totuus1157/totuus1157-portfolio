@@ -60,7 +60,7 @@ const About = () => {
                   <p className="about-wrapper__info-text">{tech}</p>
                 ))}
                 {resume && (
-                  <span className="d-flex mt-3">
+                  <span className="d-flex mt-3 mb-5 ml-4">
                     <a
                       target="_blank"
                       rel="noopener noreferrer"
