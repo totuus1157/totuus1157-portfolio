@@ -28,10 +28,10 @@ const About = () => {
   const technology = [
     '・React(Next.js)',
     '・Typescript',
-    '・Docker',
-    '・Git(Github)',
+    '・Node.js(Express)',
+    '・MySQL',
     '・Firebase(Firestore,Auth)',
-    '・Spacemacs',
+    '・Docker',
   ];
 
   return (
