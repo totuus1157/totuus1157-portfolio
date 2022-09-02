@@ -18,7 +18,7 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'anzuote.jpg',
-  paragraphOne: '●ReactとTypeScriptに高い関心を持ち、日々学習に励んでいます。',
+  paragraphOne: '●Web開発技術の習得に強い情熱を持ち、日々学習に励んでいます。',
   paragraphTwo: '●ピアノちょっと弾けます。',
   paragraphThree: '●自転車で日本一周した事あります。',
   resume: 'https://findy-code.io/share_profiles/6WP99bYouHa1o', // if no resume, the button will not show up
